@@ -1,6 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
+  namespace: demo2
   labels:
     app: block-buster
     version: 7.1.0
